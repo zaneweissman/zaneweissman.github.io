@@ -1,0 +1,112 @@
+@font-face {
+    font-family: sourceSans;
+    src: url(sourcesanspro-light.otf);
+}
+
+@font-face {
+    font-family: archivo;
+    src: url(archivo.otf);
+}
+
+@font-face {
+    font-family: aleo;
+    src: url(aleo.otf);
+}
+
+body {
+	margin:0px
+}
+
+#main {
+	width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top {
+	background-color: #990000;
+	height: 150px;
+	width: 100%;
+}
+
+#nav {
+    background-color: #B81414;
+    color: #FFF71B;
+    width:100%
+}
+
+#nav span {
+    font: 40px archivo;
+    margin: 0px 10px 0px 10px;
+}
+
+#title {
+    font: 80px aleo;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#body {
+    font: 22px sourceSans;
+    float: left;
+    wdith:73%;
+    vertical-align: top;
+}
+
+.item {
+    font: bold 30px sourceSans;
+    margin-top: 20px;
+}
+
+#related {
+    float:right;
+    width: 23%;
+    font: 24px sourceSans;
+}
+
+#related_head {
+    font: 30px aleo;
+    border:none !important;
+}
+
+#related div {
+    margin-bottom: 10px;
+    border-top-style: solid;
+    border-top-width: 2;
+}
+
+.image {
+    font: italic 16px sourceSans;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    width: auto;
+    margin: 10px;
+}
+
+#spacer {
+    width: 4%
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#share {
+    font: 80pt;
+}
+
+.image img {
+    width: 60%;
+    height: auto;
+}
+
+
+
+table {
+    margin-bottom: 80px;
+}
+
+td {
+    vertical-align: top;
+}
